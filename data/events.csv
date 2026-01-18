@@ -1,0 +1,6 @@
+timestamp,event_type,source,host,user,indicator,value,notes
+2026-01-12T19:05:11-06:00,endpoint,sysmon,WS-12,asmith,process,powershell.exe,Parent=outlook.exe
+2026-01-12T19:05:20-06:00,endpoint,sysmon,WS-12,asmith,network_connection,198.51.100.77:443,Unusual destination
+2026-01-12T19:05:58-06:00,network,proxy,PROXY-01,-,url,https://198.51.100.77/update,Direct IP URL
+2026-01-12T19:06:33-06:00,endpoint,sysmon,WS-12,asmith,persistence,scheduled_task:UpdateCheck,New task created
+2026-01-12T19:08:01-06:00,network,firewall,FW-01,-,dns_query,cdn-updates.example,New domain for host WS-12
